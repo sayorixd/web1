@@ -1,0 +1,113 @@
+
+.navbar{
+    background: #363636;
+}
+.nav-link, .navbar-brand{
+    color: #c4c4c4;
+    cursor: pointer;
+    margin-left: 1em;
+}
+.nav-link{
+    margin: 1em !important;
+}
+.nav-link:hover{
+    background: #505050;
+    color: #8898f0;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background: #FFF !important;
+}
+.active{
+    font-weight: bold;
+    color: #c4c4c4 !important;
+}
+
+.header{
+    position: relative;
+    background-image: url('../images/headerback1.jpg');
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+    color: #363636;
+}
+.description p{
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+.description button{
+    border: 1px solid #363636;
+    background: #363636;
+    color: #fff;
+}
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+.about h1{
+    color: #8898f0;
+    font-weight: 600;
+    margin: 2em;
+}
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+.about .desc{
+    padding: 2em;
+    border-left: 4px solid #8898f0;
+}
+.about .desc h3{
+    color: #8898f0;
+}
+.about .desc p{
+    line-height: 2;
+    color: #888;
+}
+
+.c-item{
+    height: 800px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.prices{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+.price-item{
+    
+}
